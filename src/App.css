@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+body{
+  /*position: relative;
+  width: 1440px;
+  height: 1024px;*/
+  background: #242423;
+  /*border-radius: 30px;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+h2{
+
+  width: 370px;
+  height: 52px;
+  left: 535px;
+  top: 230px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+  color: #F5CB5C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tela{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 608px;
+  height: 411px;
+  background: rgba(16, 16, 16, 0.5);
+  border-radius: 30px;
+}
+
+h3{
+  width: 447px;
+  height: 29px;
+  left: 100px;
+  top: 50px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 29px;
+  color: #F5CB5C;
+
+}
+.campo-code{
+ 
+  width: 300px;
+  height: 50px;
+  left: 150px;
+  top: 170px;
+  border: 2px solid #F5CB5C;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: rgba(16, 16, 16, 0.5);
   color: white;
+  font-size: 20px;
+  
+}
+.button{
+  
+  width: 220px; 
+  height: 45px; 
+  left: 190px; 
+  top: 300px; 
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  background: #F5CB5C;
+  border-radius: 25px;
+}
+.div-pai{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.titulo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.block{
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: space-around;
+  align-items: center;
 }
